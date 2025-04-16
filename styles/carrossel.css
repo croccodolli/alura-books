@@ -9,6 +9,11 @@
 
 .carrossel {
     text-align: center;
+    padding: 0;
+}
+
+.swiper {
+    padding: 0;
 }
 
 .swiper-slide img{
@@ -52,7 +57,7 @@
 }
 
 .descricao {
-    margin-right: 1em;
+    margin-right: 0.2em 1em;
 }
 
 .descricao__titulo {
@@ -98,7 +103,7 @@
 }
 
 .carrossel__container {
-    padding: 1em 3em;
+    padding: 1em 0;
 }
 
 @media screen and (min-width: 1024px) {
@@ -128,13 +133,17 @@
     }
 
     .card {
-        width: 60%;
+        width: 53%;
         margin: 3em auto;
         padding: 1.5em;
     }
+
+    .descricao__texto {
+        margin-right: 6em;
+    }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1440px) {
     .carrossel__titulo {
         font-size: 32px;
         padding: 2em 0 1em 0;
@@ -158,13 +167,14 @@
     }
 
     .card {
-        width: 45%;
-        margin-left: 3em;
+        width: 60%;
+        margin-left: 2em;
     }
 
     .descricao__titulo {
         font-size: 30px;
         line-height: 48px;
+        margin-right: 1em;
     }
 
     .descricao__titulo-livro,
